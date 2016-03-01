@@ -1,0 +1,16 @@
+{
+    "name": "steveorevo/platform-installer",
+    "description": "Allows your composer projects to easily install platform dependent packages from remote URLs to a custom folder.",
+    "keywords": ["platform", "install", "os", "download"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Stephen J. Carnam",
+        "email": "steve@steveorevo.com"
+      }
+    ],
+    "type": "platform-installer",
+    "require": {
+        "steveorevo/platform-installer-plugin": "*"
+    }
+}
