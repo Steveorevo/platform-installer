@@ -6,7 +6,7 @@ To use, simply require steveorevo/platform-installer in your project and fillout
 ```
 {
   "require": {
-    "steveorevo/platform-installer": "4.2"
+    "steveorevo/platform-installer": "1.0"
   },
   "extra": {
     "platform-installer": {
@@ -20,6 +20,12 @@ To use, simply require steveorevo/platform-installer in your project and fillout
         { 
           "url": "http://domain/folder/win-package.zip", 
           "dir:platform/win32" 
+        }
+      ],
+      "linux":[
+        { 
+          "url": "http://domain/folder/linux-package.zip", 
+          "dir:platform/linux" 
         }
       ]
     }
