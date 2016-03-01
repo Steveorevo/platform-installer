@@ -11,6 +11,6 @@
     ],
     "type": "platform-installer",
     "require": {
-        "steveorevo/platform-installer-plugin": "v0.1.0-alpha"
+        "steveorevo/platform-installer-plugin": "dev-master"
     }
 }
