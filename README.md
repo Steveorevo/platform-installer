@@ -10,22 +10,22 @@ To use, simply require steveorevo/platform-installer in your project and fillout
   },
   "extra": {
     "platform-installer": {
-      "darwin_64":[
+      "darwin_64": [
         { 
           "url": "http://domain/folder/mac-package.zip", 
-          "dir:platform/mac" 
+          "dir": "platform/mac" 
         }
       ],
-      "win_32":[
+      "win_32": [
         { 
           "url": "http://domain/folder/win-package.zip", 
-          "dir:platform/win32" 
+          "dir": "platform/win32" 
         }
       ],
-      "linux":[
+      "linux": [
         { 
           "url": "http://domain/folder/linux-package.zip", 
-          "dir:platform/linux" 
+          "dir": "platform/linux" 
         }
       ]
     }
