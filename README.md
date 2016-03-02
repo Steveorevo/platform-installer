@@ -8,7 +8,7 @@ Other values could be 'win' for all Windows based systems, 'linux', 'raspberrypi
 ```
 {
   "require": {
-    "steveorevo/platform-installer": "1.0"
+    "steveorevo/platform-installer": "1.*"
   },
   "extra": {
     "platform-installer": {
