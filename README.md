@@ -34,3 +34,5 @@ Other values could be 'win' for all Windows based systems, 'linux', 'raspberrypi
   }
 }
 ```
+
+If a target directory (dir) is not included, it will be placed withn the vendor/steveorevo/platform folder root. Existing folders will not be updated; to update a given platform installer you must remove it. It should be noted that URLs are cached (use composer clear-cache to force redownload). In most cases, this shouldn't matter as version updates dictate a new unique URL (i.e. gitlab.com, etc.).
